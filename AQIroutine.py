@@ -15,5 +15,5 @@ df_need = df[['SubID', 'time','MAXAQI',
   'COIaqi','COvalue',  'NO2Iaqi', 'NO2value', 'SO2Iaqi', 'SO2value', 
     'O3_1Iaqi', 'O3_1value', 'O3_8Iaqi', 'O3_8value']]
 
-localtime = time.strftime("%Y%m%dT%H%M", time.localtime()) 
-df_need.to_csv('/root/qinGithub/aqiJiNan/AQIroutine/'+localtime+'.csv') 
+localtime = time.strftime("%Y%m%dT%H%M", time.localtime())
+df_need.to_csv('/root/qinGitHub/aqiJiNan/AQIroutine/'+localtime+'.csv')
