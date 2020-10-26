@@ -6,4 +6,7 @@ chmod +x AQIroutine.py
 
 crontab -e
 12,48 * * * * /root/miniconda3/bin/python /root/qinGitHub/aqiJiNan/AQIroutine.py
+
+35 11 * * 1 /root/miniconda3/bin/python /root/qinGitHub/aqiJiNan/WeeklyAll.py
 ```
+crontab use UTC+0
