@@ -10,6 +10,8 @@ crontab -e
 35 11 * * 1 /root/miniconda3/bin/python /root/qinGitHub/aqiJiNan/WeeklyAll.py
 ```
 crontab use UTC+0  
-
+```
+27 * * * * /bin/bash /root/qinGitHub/aqiJiNan/Upload.sh
+```
 git no authentication  
 https://blog.csdn.net/tsq292978891/article/details/89316612
